@@ -379,20 +379,45 @@ export default function CreateStamp() {
           </div>
         </div>
         <div className="rounded-3xl border border-black/10 bg-white/70 p-5 text-sm text-muted">
-          <p className="font-medium text-foreground">
-            TermStamp is not legal proof.
-          </p>
+          <p className="font-medium text-foreground">What is TermStamp?</p>
           <p className="mt-3">
-            It provides publicly verifiable blockchain evidence that a hash
-            existed at a specific time and was signed by a wallet. 
+            TermStamp helps you create a timestamped proof that something
+            existed at a specific time.
           </p>
-          <p className="mt-3">
-            The platform helps you to create proof of existence of your original ideas, terms , agreements or art. This lets you prove the existence of a document or content without revealing it, but it does not guarantee the content itself or its authorship.
-            For critical use cases, consider using TermStamp in conjunction with traditional notarization or legal services to establish a stronger evidentiary chain.
+
+          <p className="mt-4 font-medium text-foreground">You can use it for:</p>
+          <ul className="mt-2 list-disc space-y-1 pl-5">
+            <li>Project ideas and drafts</li>
+            <li>Agreements or terms</li>
+            <li>Written content or artwork</li>
+          </ul>
+
+          <p className="mt-4 font-medium text-foreground">
+            What does this prove?
           </p>
+          <ul className="mt-2 list-disc space-y-1 pl-5">
+            <li>Your content existed at a certain time</li>
+            <li>The record is publicly verifiable</li>
+          </ul>
+
+          <p className="mt-4 font-medium text-foreground">
+            What this does NOT prove
+          </p>
+          <ul className="mt-2 list-disc space-y-1 pl-5">
+            <li>It does not prove ownership</li>
+            <li>It is not a legal certification</li>
+            <li>It does not guarantee authorship</li>
+          </ul>
+
+          <p className="mt-4 font-medium text-foreground">
+            Make sure you keep:
+          </p>
+          <ul className="mt-2 list-disc space-y-1 pl-5">
+            <li>Your transaction signature</li>
+            <li>Your hash</li>
+          </ul>
           <p className="mt-3">
-            Save your transaction signature and TermStamp hash on your device. TermStamp does not store
-            your history.
+            You will need these later to verify your proof here or on Solscan.
           </p>
         </div>
       </aside>
